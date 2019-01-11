@@ -193,6 +193,30 @@ a {
   color: #BD5D38;
 }
 
-a:hover, a:focus, a:active {
+a:hover, a:focus, a:active, summary h3:hover {
   color: #824027;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+  
+}
+
+details:not([open]) summary ~ * {
+  animation: sweep .5s ease-in-out;
+  
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+summary{
+  outline: none;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  50%   {opacity: 0.5; margin-top: -5px}
+  100%  {opacity: 1; margin-top: 0px}
 }
