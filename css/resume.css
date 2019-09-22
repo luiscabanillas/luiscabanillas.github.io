@@ -287,3 +287,7 @@ abbr[title], abbr {
 .mb-0 {
   color: #BD5D38;
 }
+
+details ul{
+  display: inline-block;
+}
