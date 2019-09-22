@@ -17,12 +17,7 @@ body {
   }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
   text-transform: uppercase;
@@ -54,10 +49,10 @@ p.lead {
   font-size: 1.5rem;
 }
 
-.fa-empty{
-    border-left: 1px solid #DDD;
-    height: 50px;
-    vertical-align: middle;
+.fa-empty {
+  border-left: 1px solid #DDD;
+  height: 50px;
+  vertical-align: middle;
 }
 
 .social-icons a {
@@ -197,28 +192,35 @@ a:hover, a:focus, a:active, summary h3:hover {
   color: #824027;
 }
 
-details[open] summary ~ * {
+details[open] summary~* {
   animation: sweep .5s ease-in-out;
-  
 }
 
-details:not([open]) summary ~ * {
+details:not([open]) summary~* {
   animation: sweep .5s ease-in-out;
-  
 }
 
 details summary::-webkit-details-marker {
-  display:none;
+  display: none;
 }
 
-summary{
+summary {
   outline: none;
 }
 
 @keyframes sweep {
-  0%    {opacity: 0; margin-top: -10px}
-  50%   {opacity: 0.5; margin-top: -5px}
-  100%  {opacity: 1; margin-top: 0px}
+  0% {
+    opacity: 0;
+    margin-top: -10px
+  }
+  50% {
+    opacity: 0.5;
+    margin-top: -5px
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px
+  }
 }
 
 abbr[title], abbr {
@@ -227,35 +229,57 @@ abbr[title], abbr {
   text-decoration: none !important;
 }
 
-.resume-footer{
+.resume-footer {
   padding: 3em;
 }
 
-.company-logo{
+.company-logo {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
 
-.company-logo.expedia{
+.company-logo.expedia {
   width: 7em;
 }
 
-.company-logo.accenture{
+.company-logo.accenture {
   width: 5em;
 }
 
-.company-logo.tiempo-dev{
+.company-logo.about {
+  vertical-align: baseline !important;
+  margin-left: 0em !important;
+}
+
+.company-logo.tiempo-dev {
   width: 4em;
 }
 
-.company-logo.global-voip{
+.company-logo.global-voip {
   width: 8em;
 }
 
-.company-logo.lennken{
+.company-logo.lennken {
   width: 6em;
 }
 
-.mb-0{
+.company-logo.t-mobile, .company-logo.cisco, .company-logo.bestbuy {
+  vertical-align: bottom;
+  margin-left: 0.5em;
+}
+
+.company-logo.t-mobile {
+  width: 4em;
+}
+
+.company-logo.cisco {
+  width: 2em;
+}
+
+.company-logo.bestbuy {
+  width: 2em;
+}
+
+.mb-0 {
   color: #BD5D38;
 }
