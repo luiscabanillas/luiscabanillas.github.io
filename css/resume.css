@@ -288,6 +288,6 @@ abbr[title], abbr {
   color: #BD5D38;
 }
 
-details ul{
+details ul, .certs ul{
   display: inline-block;
 }
