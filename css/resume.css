@@ -246,6 +246,10 @@ abbr[title], abbr {
   width: 5em;
 }
 
+.company-logo.accenture-vendors {
+  width: 15em;
+}
+
 .company-logo.about {
   vertical-align: baseline !important;
   margin-left: 0em !important;
