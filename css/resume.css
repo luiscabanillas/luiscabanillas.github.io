@@ -230,3 +230,32 @@ abbr[title], abbr {
 .resume-footer{
   padding: 3em;
 }
+
+.company-logo{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.company-logo.expedia{
+  width: 7em;
+}
+
+.company-logo.accenture{
+  width: 5em;
+}
+
+.company-logo.tiempo-dev{
+  width: 4em;
+}
+
+.company-logo.global-voip{
+  width: 8em;
+}
+
+.company-logo.lennken{
+  width: 6em;
+}
+
+.mb-0{
+  color: #BD5D38;
+}
