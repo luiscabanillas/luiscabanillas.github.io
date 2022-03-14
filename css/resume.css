@@ -238,6 +238,10 @@ abbr[title], abbr {
   -webkit-filter: grayscale(100%);
 }
 
+.company-logo.microsoft {
+  width: 6em;
+}
+
 .company-logo.expedia {
   width: 7em;
 }
